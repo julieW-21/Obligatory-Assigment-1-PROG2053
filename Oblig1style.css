@@ -1,0 +1,257 @@
+/*CSS file for styling all three pages*/
+
+/*Roboto fonts*/
+@font-face {
+	font-family: 'RobotoBold';
+	src: url(Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url(Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'RobotoItalic';
+	src: url(Roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+	font-family: 'RobotoThin';
+	src: url(Roboto/Roboto-Thin.ttf);
+}
+
+
+body {
+	margin: 0;
+}
+
+
+/*Header for all three pages*/
+
+	h1 {
+		font-family: 'RobotoBold';	
+		font-size: 24px;
+		text-align: center;
+		margin: 0;
+	}
+
+	header {
+		text-align: center;
+		font-family: 'RobotoRegular';
+		background-color: #1E2A38;
+		color: white;
+		padding: 1px;
+	}
+
+
+	a {
+		color: white;
+	}
+
+
+	.faint-line {
+		width: 100%;
+		border: none;
+		background-color: white;
+		opacity: 0.1;
+		height: 1px;
+	}
+
+/*Second heading*/
+
+	h2 {
+		font-family: 'RobotoBold';	
+		font-size: 24px;
+		text-align: center;
+		margin: 0;
+	}
+
+
+/*Section 1 Home Page*/
+
+	.awesome {
+		font-family: 'RobotoRegular';
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 50px;
+		background-color: #1E2A38;
+		color: white;
+	}
+
+	.awesome .content {
+		width: 500px;
+	}
+
+	.awesome .content h1 {
+		text-align: left;
+		font-size: 28px;
+	}
+
+	.awesome input[type="button"] {
+		font-family: 'RobotoBold';
+		padding: 8px 20px;
+		background-color: #007bff;
+		color: white;
+		border: none;
+		border-radius: 10px;
+		width: 100px;
+		cursor: pointer;
+	}
+
+	.placeholder-image {
+		width: 400px;
+		height: 200px;
+		background-color: #595959;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 14px;
+	}
+
+/*Section 2 Home Page*/
+
+	.basic {
+		text-align: center;
+		margin-inline: 250px;
+	}
+
+	.info-row {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		margin-bottom: 40px;
+	}
+
+	.blue-frame {
+		width: 200px;
+		height: 110px;
+		border: 5px solid #007bff;
+		display: flex;
+		border-radius: 10px;
+		background-color: white;
+	}
+
+	.text-block {
+		font-family: 'RobotoRegular';
+		max-width: 500px;
+		text-align: left;
+	}
+
+
+/*Section 3 Home Page*/
+
+	.quote-box {
+		background-color: lightgrey;
+		padding: 60px;
+		max-width: 100%;
+		text-align: center;	
+	}
+
+	.quote {
+		font-family: 'RobotoItalic';
+		color: black;
+		font-size: 24px;
+		text-shadow: 0 4px 12px rgba(0, 0, 0, 2.0);
+		margin-inline: 300px;
+		text-align: left;
+	}
+
+	.author {
+		text-align: right;
+		font-family: 'RobotoBold';
+		font-size: 16px;
+		margin-inline: 300px;
+	}
+
+
+/*Section 4 Home Page*/
+
+	.signup-box {
+		font-family: 'RobotoRegular';
+		display: flex;
+		background-color: #007bff;
+		padding-inline: 100px;
+		padding-block: 10px;
+		color: white;
+		margin-inline: 250px;
+		margin-block: 80px;	
+		border-radius: 10px;
+		align-items: center;
+	}
+
+
+	.signup-box input[type="button"] {
+		font-family: 'RobotoBold';
+		padding: 10px;
+		background-color: #007bff;
+		color: white;
+		border: 3px solid white;
+		border-radius: 10px;
+		min-width: 100px;
+		cursor: pointer;
+		margin-left: 100px;
+	}
+
+
+/*Footer for all three pages*/
+
+footer {
+	text-align: center;
+	font-family: 'RobotoThin';
+	font-size: 12px;
+	background-color: #1E2A38;
+	color: white;
+	padding: 10px;
+	
+}
+
+
+/*Dynamic Content Loading Page*/
+
+	.post-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		padding: 20px;
+		margin-inline: 120px;
+		margin-bottom: 150px;
+	}
+
+	.post {
+		font-family: 'RobotoRegular';
+		font-size: 16px;
+		background-color: lightskyblue;
+		padding: 20px;
+		margin: 8px;
+		width: 25%;
+		border: 1px solid lightgrey;
+		border-radius: 8px;
+	}
+
+
+/*Real-time data display*/
+
+	#weather-container {
+		font-family: 'RobotoRegular';
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		text-align: center;
+		justify-content: center;
+		margin-top: 10px;
+		width: 100%;
+		margin-bottom: 168px;
+	}
+
+	.weather-box {
+		background-color: pink;
+		border-radius: 10px;
+		padding: 10px;
+		text-align: center;
+		margin: 10px;
+		width: 350px;
+	}
